@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>ePortugueseFeedback</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            </button>
+                <a onclick="location.href='frontpage.html'" href="#" class="navbar-brand">ePortugueseFeedback</a>
+            </div>
+            <div>
+                <p id="right"><a> Welcome . . . .</a> </p>
+            </div>
+        </div>
+    </nav>
+    <div class="navbar-wrapper">
+        <div class="navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a onclick="location.href='template.html'" href="#">Templates</a></li>
+                        <li><a class="active">Topics</a></li>
+                        <li><a class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">Create feedback »</a></p>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Create feedback</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="col-md-6">
+                                                <h3>Select template</h3>
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Select </button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h3> Create new </h3>
+                                                <button onclick="location.href='CreateTemplate.html'" href="#" type="button" class="btn btn-default" data-dismiss="modal">Create</button>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center">
+        <a onclick="location.href='CreateRequirement.html'" href="#"><button type="button" class="btn btn-lg btn-default" style="width: 500px">
+              <span     class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            </button></a>
+    </div>
+
+
+    <div>
+        <hr>
+    </div>
